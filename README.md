@@ -1,4 +1,4 @@
-# Client-Server Debugging Lab
+# Debugging Network Requests Lab
 
 ## Learning Goals
 
