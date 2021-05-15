@@ -4,7 +4,7 @@ function ToyCard({ toy, onDeleteToy, onUpdateToy }) {
   const { id, name, image, likes } = toy;
 
   function handleDeleteClick() {
-    fetch(`http://localhost:3000/toys/${id}`, {
+    fetch(`/toys/${id}`, {
       method: "DELETE",
     }).then((r) => {
       if (r.ok) {
@@ -18,7 +18,7 @@ function ToyCard({ toy, onDeleteToy, onUpdateToy }) {
       likes: toy.likes + 1,
     };
 
-    fetch(`http://localhost:3000/toys/${id}`, {
+    fetch(`/toys/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",

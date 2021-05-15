@@ -11,7 +11,7 @@ Just like the last lesson, we've got code for a React frontend and Rails API
 backend set up. This time though, it's up to you to use your debugging skills to
 find and fix the errors!
 
-To get the backend set up, `cd` into the `toy-tales-api` folder, and run:
+To get the backend set up, run:
 
 ```sh
 bundle install
@@ -19,11 +19,11 @@ rails db:migrate db:seed
 rails s
 ```
 
-Then, in a new terminal, `cd` into the `toy-tales` folder and run the frontend:
+Then, in a new terminal, run the frontend:
 
 ```sh
-npm install
-npm start
+npm install --prefix client
+npm start --prefix client
 ```
 
 Confirm both applications are both up and running by visiting
