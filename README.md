@@ -26,13 +26,13 @@ npm install --prefix client
 npm start --prefix client
 ```
 
-Confirm both applications are both up and running by visiting
+Confirm both applications are up and running by visiting
 [`localhost:4000`](http://localhost:4000) and viewing the list of toys in your
 React application.
 
 ## Deliverables
 
-In this application, the features we have are to:
+In this application, we have the following features:
 
 - Display a list of all the toys
 - Add a new toy when the toy form is submitted
