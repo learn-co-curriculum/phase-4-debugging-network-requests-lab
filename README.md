@@ -1,9 +1,11 @@
-# Debugging Network Requests Lab
+# Putting it All Together: Client-Server Communication
 
 ## Learning Goals
 
-- Use the browser developer tools to debug on the frontend
-- Use server logging tools and `byebug` to isolate errors on the backend
+- Understand how to communicate between client and server using fetch, and how
+  the server will process the request based on the URL, HTTP verb, and request
+  body
+- Debug common problems that occur as part of the request-response cycle
 
 ## Introduction
 
@@ -50,3 +52,22 @@ browser and using the Rails server logs and `byebug`.
 
 **Note**: You shouldn't need to modify any of the React code to get the
 application working. You should only need to change the code for the Rails API.
+
+As you work on debugging these issues, use the space in this README file to take
+notes about your debugging process. Being a strong debugger is all about
+developing a process, and it's helpful to document your steps as part of
+developing your own process.
+
+## Your Notes Here
+
+- Add a new toy when the toy form is submitted
+
+  - How I debugged:
+
+- Update the number of likes for a toy
+
+  - How I debugged:
+
+- Donate a toy to Goodwill (and delete it from our database)
+
+  - How I debugged:
