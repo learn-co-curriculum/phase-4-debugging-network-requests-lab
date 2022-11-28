@@ -1,3 +1,5 @@
+
+
 class ToysController < ApplicationController
   wrap_parameters format: []
 
@@ -7,13 +9,15 @@ class ToysController < ApplicationController
   end
 
   def create
-    toy = Toys.create(toy_params)
+    # byebug
+    toy = Toy.create(toy_params)
     render json: toy, status: :created
   end
 
   def update
     toy = Toy.find_by(id: params[:id])
     toy.update(toy_params)
+    render json: toy
   end
 
   def destroy
